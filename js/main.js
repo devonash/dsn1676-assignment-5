@@ -12,7 +12,7 @@ $form.on('submit', function (eventObject) {
 	var $addItem = $("<h3>").html($input.val());
 	var $button = $("<button>");
 
-	$button.html("&#x2717");
+	$button.html("x");
 	$button.addClass("done");
 
 	$button.on("click", function () {
